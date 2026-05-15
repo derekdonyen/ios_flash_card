@@ -1,0 +1,30 @@
+{
+  "name": "memory-card-ios",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo/AppEntry",
+  "engines": {
+    "node": ">=20 <24"
+  },
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.1.0",
+    "expo": "~53.0.0",
+    "expo-asset": "~11.1.7",
+    "expo-speech": "~13.1.7",
+    "expo-sqlite": "~15.2.14",
+    "react": "19.0.0",
+    "react-native": "0.79.6",
+    "react-native-safe-area-context": "5.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  }
+}
