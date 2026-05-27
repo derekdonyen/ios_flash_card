@@ -2,8 +2,9 @@
   "expo": {
     "name": "記憶卡片",
     "slug": "memory-card-ios",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "assetBundlePatterns": [
       "**/*"
@@ -11,7 +12,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.derekdonyen.memorycard",
-      "buildNumber": "1"
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "plugins": [
       "expo-sqlite"
